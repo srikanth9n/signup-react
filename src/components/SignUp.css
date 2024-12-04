@@ -1,0 +1,34 @@
+.signup-form {
+    width: 100%;
+    max-width: 400px; /* Set a max width to prevent it from getting too wide */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width */
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box; /* Prevents inputs from overflowing */
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+.signup-form button:hover {
+    background-color: #218838;
+}
+
+.signup-form p {
+    text-align: center;
+}
